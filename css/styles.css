@@ -22,24 +22,15 @@ body p {
   text-decoration: none;
 }
 
-
-
-
-.textStyle1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-button#startBtn {
-  width: 10rem;
-  padding: 0.7rem;
+#name { 
+  width: 20rem;
+  margin: 0 auto;
 }
 
 .title {
   font-weight: bold;
   color: blueviolet;
-  margin: 2rem 0 0 0;
+  margin: 2rem 0 2rem 0;
 }
 
 .mContainer {
@@ -56,35 +47,11 @@ button#startBtn {
   text-align: center;
 }
 
-button#dropdownMenu1,
-button#dropdownMenu2 {
-  width: 100%;
-}
-
 .displayNone {
   display: none;
 }
 
-p#work {
-  font-size: 2rem;
-}
-p#timer {
-  font-size: 4rem;
-}
-
-button#stopBtn,
-button#cancelBtn {
-  width: 8rem;
-  margin: 1rem;
-}
-
-h3 span {
-  font-size: 3rem;
-}
-
 /* スマホ定義 */
 @media screen and (max-width: 600px) {
-  .flexFill {
-    flex: 1 1 auto;
-  }
+
 }
