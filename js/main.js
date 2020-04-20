@@ -43,7 +43,7 @@
       }
 
       // ツイートボタン
-      $('#twitter').prepend('<a id="twieetUrl" href="https://twitter.com/intent/tweet?url=https://jun239.github.io/LatentBrainPower&text=あなたの潜在脳力はいくつ？？' + rsltText + '！！" target="blank_">twieetする</a>');
+      $('#twitter').prepend('<a id="twieetUrl" href="https://twitter.com/intent/tweet?url=https://jun239.github.io/LatentBrainPower&text=あなたの潜在脳力は' + rsltText + '！！" target="blank_">twieetする</a>');
 
     } catch (e) {
       alert('名前を入力してね。');
