@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ja">
+  <title>潜在脳力</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport"
+    content="width=device-width, maximum-scale=1.0, minimum-scale=0.5,user-scalable=yes,initial-scale=1.0" />
+
+  <!-- Twitter用 -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rOdDfBD8a8LXgYd" />
+  <meta property="og:url" content="https://jun239.github.io/LatentBrainPower/" />
+  <meta property="og:title" content="潜在脳力測定" />
+  <meta property="og:description" content="あなたの脳力はいくつ？？" />
+  <meta property="og:image" content="./img/alarm.png" />
+
+  <!-- Bootstrap 導入部分ここから -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap 導入部分ここまで -->
+</head>
+
+<body>
+  <div id="container">
+    <h3 class="title">潜在脳力</h3>
+    <!-- トップページ -->
+    <div id="page1">
+      <div class="mContainer">
+        <div class="d-flex flex-column">
+          <div class="p-2">
+            <p>名前</p>
+            <input id="name" class="form-control" type="text" placeholder="山田 太郎" value="半谷純平">
+          </div>
+
+          <div class="p-2">
+            <p>生年月日</p>
+            <div class="d-flex justify-content-center">
+              <!-- 年 -->
+              <div class="p-2">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        2000
+                      </button>
+                      <div id="dropMenu" class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1">
+                        <!-- <a class="dropdown-item" value="15">Action</a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2">
+                    <p>年</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 月 -->
+              <div class="p-2">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        01
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <a class="dropdown-item" value="01">01</a>
+                        <a class="dropdown-item" value="02">02</a>
+                        <a class="dropdown-item" value="03">03</a>
+                        <a class="dropdown-item" value="04">04</a>
+                        <a class="dropdown-item" value="05">05</a>
+                        <a class="dropdown-item" value="06">06</a>
+                        <a class="dropdown-item" value="07">07</a>
+                        <a class="dropdown-item" value="08">08</a>
+                        <a class="dropdown-item" value="09">09</a>
+                        <a class="dropdown-item" value="10">10</a>
+                        <a class="dropdown-item" value="11">11</a>
+                        <a class="dropdown-item" value="12">12</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2">
+                    <p>月</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 日 -->
+              <div class="p-2">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu3"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        01
+                      </button>
+                      <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu3">
+                        <a class="dropdown-item" value="01">01</a>
+                        <a class="dropdown-item" value="02">02</a>
+                        <a class="dropdown-item" value="03">03</a>
+                        <a class="dropdown-item" value="04">04</a>
+                        <a class="dropdown-item" value="05">05</a>
+                        <a class="dropdown-item" value="06">06</a>
+                        <a class="dropdown-item" value="07">07</a>
+                        <a class="dropdown-item" value="08">08</a>
+                        <a class="dropdown-item" value="09">09</a>
+                        <a class="dropdown-item" value="10">10</a>
+                        <a class="dropdown-item" value="11">11</a>
+                        <a class="dropdown-item" value="12">12</a>
+                        <a class="dropdown-item" value="13">13</a>
+                        <a class="dropdown-item" value="14">14</a>
+                        <a class="dropdown-item" value="15">15</a>
+                        <a class="dropdown-item" value="16">16</a>
+                        <a class="dropdown-item" value="17">17</a>
+                        <a class="dropdown-item" value="18">18</a>
+                        <a class="dropdown-item" value="19">19</a>
+                        <a class="dropdown-item" value="20">20</a>
+                        <a class="dropdown-item" value="21">21</a>
+                        <a class="dropdown-item" value="22">22</a>
+                        <a class="dropdown-item" value="23">23</a>
+                        <a class="dropdown-item" value="24">24</a>
+                        <a class="dropdown-item" value="25">25</a>
+                        <a class="dropdown-item" value="26">26</a>
+                        <a class="dropdown-item" value="27">27</a>
+                        <a class="dropdown-item" value="28">28</a>
+                        <a class="dropdown-item" value="29">29</a>
+                        <a class="dropdown-item" value="30">30</a>
+                        <a class="dropdown-item" value="31">31</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2">
+                    <p>日</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- button -->
+          <div>
+            <button id="startBtn" type="button" class="btn btn-outline-secondary">脳力を測る</button>
+          </div>
+
+
+        </div>
+
+
+        <!-- flex -->
+        <!-- <div class="d-flex flex-row justify-content-center" style="height: 100%;">
+          <div class="p-2 areaStyle1 align-self-center flexFill">
+            <p class="textStyle1">WORK</p>
+            <div class="dropdown"> -->
+
+        <!-- flex -->
+        <!-- <div class="d-flex justify-content-center">
+                <div class="p-2">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    25
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <a class="dropdown-item" value="15">15</a>
+                    <a class="dropdown-item" value="20">20</a>
+                    <a class="dropdown-item" value="25">25</a>
+                    <a class="dropdown-item" value="30">30</a>
+                    <a class="dropdown-item" value="35">35</a>
+                    <a class="dropdown-item" value="40">40</a>
+                    <a class="dropdown-item" value="45">45</a>
+                  </div>
+                </div>
+
+                <div class="p-2 align-self-center">
+                  <p class="textStyle2">分</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 areaStyle1 align-self-center flexFill">
+            <p class="textStyle1">INTERVAL</p>
+            <div class="dropdown"> -->
+
+        <!-- flex -->
+        <!-- <div class="d-flex justify-content-center">
+                <div class="p-2">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    05
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <a class="dropdown-item" value="05">05</a>
+                    <a class="dropdown-item" value="10">10</a>
+                    <a class="dropdown-item" value="15">15</a>
+                  </div>
+                </div>
+
+                <div class="p-2 align-self-center">
+                  <p class="textStyle2">分</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- button -->
+      <!-- <div>
+        <button id="startBtn" type="button" class="secBtn btn btn-outline-secondary">スタート</button>
+      </div> -->
+
+    </div>
+
+    <!-- リザルトページ -->
+    <div id="page2" class="displayNone">
+
+      <div class="d-flex flex-column justify-content-center">
+        <div class="p-2">
+          <div class="d-flex flex-column">
+            <div class="p-2">
+              <p>あなたの脳力は...</p>
+              <p id="rslt"></p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- button -->
+        <div class="p-2">
+          <div class="d-flex justify-content-center">
+            <div class="p-2">
+              <button id="returnBtn" type="button" class="btn btn-outline-secondary">もう一度測る</button>
+            </div>
+            <div class="p-2">
+              <button id="twitter" type="button" class="btn btn-outline-secondary"></button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <!-- カウントダウン -->
+      <!-- <div class="mContainer">
+        <div class="d-flex flex-column justify-content-center" style="height: 100%;">
+          <div class="p-2 align-self-center">
+            <p id="work">WORK</p>
+          </div>
+          <div class="p-2 align-self-center">
+            <p id="timer"></p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- button -->
+      <!-- <div>
+        <button id="stopBtn" type="button" class="btn btn-outline-secondary">一時停止</button>
+        <button id="cancelBtn" type="button" class="btn btn-outline-secondary">キャンセル</button>
+      </div>
+
+      <audio id="sound-file-decision1" preload="auto">
+        <source src="./sound/decision1.mp3" type="audio/mp3">
+      </audio>
+      <audio id="sound-file-decision4" preload="auto">
+        <source src="./sound/decision4.mp3" type="audio/mp3">
+      </audio> -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
